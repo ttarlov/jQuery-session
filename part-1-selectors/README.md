@@ -34,13 +34,13 @@ Use the [jQuery Documentation](https://api.jquery.com/) to answer the following 
 
 6. How do you select elements based on different attributes?
 
-  **_ You use ":" before the name of the attribute. EX $(":input")_**
+  **_You use ":" before the name of the attribute. EX $(":input")_**
   
   
 7. How do you select a checkbox based on its state?
 
 
-    **_ $("checkbox:checked")_**
+  **_$("checkbox:checked")_**
 
 
 ## Exercises:
