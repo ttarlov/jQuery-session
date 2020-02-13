@@ -26,11 +26,11 @@ Use the [jQuery Documentation](https://api.jquery.com/) to answer the following 
 
 4. How can you select multiple elements with different IDs and classes in one selector expression?
 
-      **_You need to seperate the selectors with a coma and sepecify if you are selecting a class (.className) or an id (#idName). 
+      **_You need to seperate the selectors with a coma and sepecify if you are selecting a class (.className) or an id (#idName)._** 
 
 5. What are the different ways of chaining selectors? 
 
-      **_You can chain based on class alone or you can be more specific and select based on element and its class. EX: $(h1.heading, p#intro)_***
+      **_You can chain based on class alone or you can be more specific and select based on element and its class. EX: $(h1.heading, p#intro)_**
 
 6. How do you select elements based on different attributes?
 
