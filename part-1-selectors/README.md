@@ -30,7 +30,7 @@ Use the [jQuery Documentation](https://api.jquery.com/) to answer the following 
 
 5. What are the different ways of chaining selectors? 
 
-      **_You can chain based on class alone or you can be more specific and select based on element and its class. EX: $(h1.heading, p#intro)_**
+ **_You can chain based on class alone or you can be more specific and select based on element and its class. EX: $(h1.heading, p#intro)_**
 
 6. How do you select elements based on different attributes?
 
