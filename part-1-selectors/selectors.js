@@ -9,3 +9,13 @@ clearBtn.addEventListener('click', function(){
     input.value = "";
   })
 })
+
+$('label').addClass('green');
+
+$('input.phone').addClass('yellow');
+
+console.log($('input#confirm').attr('id'))
+
+$('p label').addClass('purple') // get specific, select select all labels inside p tag
+
+$('#clear-btn').addClass('red')
