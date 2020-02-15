@@ -39,18 +39,39 @@ $('button').click(function() {
 jQuery provides a lot of event listeners methods for specific events (`click`, `hover`, `focus`), as well as more general handlers whose syntax closely resembles `.addEventListener()`.
 
 ## Event Delegation
-But what about dynamic content? jQuery even has ways to take advantage of [event delegation](https://learn.jquery.com/events/event-delegation/)! The pattern is a little different from what you've done in vanilla JS, but the ideas still apply.
+  But what about dynamic content? jQuery even has ways to take advantage of [event delegation](https://learn.jquery.com/events/event-delegation/)! The pattern is a little different from what you've done in vanilla JS, but the ideas still apply.
 
 
 ## Questions:
 Use the jQuery docs to answer the following:
 
 1. What method(s) allows us to listen for / respond to an event with jQuery?
+
+    **_.on() method will allow us to listen for a click and run a function when that element is clicked._**
+
 2. Which method allows us to listen to any kind of event? How do you specify the event?
+
+    **_you would use event delegation. You will need to use .on() method on the parent container and then inside it specify the element that you are specifily looking to target for a say click event.
+    ex $( "parent" ).on( "click", "exact element you want", function( event ) { what you want done }_**
+
 3. What arguments do the methods from the previous two questions take?
+
+    **_type of event, element, callback function_**
+
 4. How do you take advantage of event delegation with jQuery? How is it different from vanilla JS event delegation?
+
+    **_Same way you would with vanilla JS. The syntax is much simpler_**
+
 5. How do you determine which element fired the event in a jQuery event listener? How is this different from finding the element that fired an event in vanilla JS?
+
+
+
+
 6. What’s the difference between this and $(this)? (think about what methods are available to each)
+
+
+
+
 7. Can you still access the event object within a jQuery event listener? If so, how?
 
 ## Exercises:
